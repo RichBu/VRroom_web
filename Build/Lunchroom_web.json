@@ -1,0 +1,11 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Lunchroom_web.data.unityweb",
+"asmCodeUrl": "Lunchroom_web.asm.code.unityweb",
+"asmMemoryUrl": "Lunchroom_web.asm.memory.unityweb",
+"asmFrameworkUrl": "Lunchroom_web.asm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
