@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0; maximum-scale=1.0; userscale=no">
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Rich Budek | VR Demo1 - Lunchroom</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script>
+      var viewMode = getCookie("view-mode");
+      if (viewMode == "desktop") {
+        viewport.setAttribute('content', 'width=1024');
+      } else if (viewMode == "mobile") {
+        viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
+      }
+    </script>
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
